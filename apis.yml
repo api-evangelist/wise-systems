@@ -1,7 +1,26 @@
 aid: wise-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wise-systems.png
 name: Wise Systems
-description: Wise Systems is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wise Systems provides autonomous routing and last-mile delivery optimization
+  software powered by machine learning. Its platform helps fleet operators plan strategy,
+  optimize and dynamically re-route deliveries, dispatch in real time, track driver
+  performance, and improve last-mile efficiency across industries including auto parts,
+  beverage, building materials, container management, field service, food service,
+  healthcare, linen services, parcel/courier, and retail. Wise Systems exposes an internal
+  "Engine API" during customer implementations to connect data inputs and outputs, but
+  publishes no public developer portal, API reference, or SDKs. Backed by Techstars and
+  headquartered in Cambridge, Massachusetts.
 url: https://raw.githubusercontent.com/api-evangelist/wise-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Last-Mile Delivery
+- Route Optimization
+- Fleet Management
+- Dispatch
+- Machine Learning
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wise-systems-domain-security.yml
 - type: Website
   url: https://wisesystems.com/
+- type: Support
+  url: https://wisesystems.com/support/
+- type: Blog
+  url: https://wisesystems.com/blog/
+- type: PrivacyPolicy
+  url: https://wisesystems.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
