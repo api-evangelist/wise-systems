@@ -49,7 +49,7 @@ tags:
 - Route Optimization
 - Fleet Management
 - Dispatch
-- Machine-Learning
+- Machine Learning
 - Supply Chain
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Dispatch
 - Machine Learning
 - Supply Chain
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
